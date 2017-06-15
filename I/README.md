@@ -1,1 +1,1 @@
-# Interface Segregation
+# Interface Segregation Principle

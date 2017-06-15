@@ -1,4 +1,4 @@
-# Single Responsibility
+# Single Responsibility Principle
 > The single responsibility principle is a computer programming principle that states that every module or class should have responsibility over a single part of the functionality provided by the software, and that responsibility should be entirely encapsulated by the class.
 [Wikipedia](https://en.wikipedia.org/wiki/Single_responsibility_principle)
 
