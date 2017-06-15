@@ -18,7 +18,7 @@ every class (every feature/responsibility), your tests will be simpler and small
 and when you want to alter a feature, you’ll have way less chances
 to break other features.
 
-## Bad examples
+## MVC
 Perhaps the most common and vivid example of *violation* of single responsibility
 principle is MVC “pattern”. Yes, we all like Rails, but let’s look
 at it objectively for a moment.
@@ -32,3 +32,8 @@ mixture of varied responsibilities. It’s usually responsible for:
 * Output format of responses.
 * Authenticate requests.
 * etc.
+
+Of course splitting controllers into multitude of little classes may seem like
+a sadistic exercise. There probably should be a scientific study which
+compares benefits of a Controller concept vs Single Responsibility principle.
+Yet we usually see how controllers grow in size and require huge test cases.
