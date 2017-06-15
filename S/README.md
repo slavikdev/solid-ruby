@@ -17,3 +17,18 @@ But it’s a good trade off because you’ll be able to create tests for
 every class (every feature/responsibility), your tests will be simpler and smaller
 and when you want to alter a feature, you’ll have way less chances
 to break other features.
+
+## Bad examples
+Perhaps the most common and vivid example of *violation* of single responsibility
+principle is MVC “pattern”. Yes, we all like Rails, but let’s look
+at it objectively for a moment.
+
+There’s a good reason for a class to have one responsibility,
+yet what do we usually have in controllers? That’s right, a controller is a
+mixture of varied responsibilities. It’s usually responsible for:
+* Storing data.
+* Getting data.
+* Deleting data.
+* Output format of responses.
+* Authenticate requests.
+* etc.
