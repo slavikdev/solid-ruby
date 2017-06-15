@@ -2,11 +2,11 @@
 # @Date:   2017-06-15T17:04:00+03:00
 # @Email:  shinkarenko.vi@gmail.com
 # @Last modified by:   Slavik
-# @Last modified time: 2017-06-15T17:05:48+03:00
+# @Last modified time: 2017-06-15T17:47:41+03:00
 # @Copyright: Viacheslav Shynkarenko. All Rights Reserved.
 
 # This is a typical Rails controller generated via rails g scaffold command.
-# You can see how many responsibilities it shares. It knows way too much.
+# You can see how many responsibilities it has. It knows way too much.
 class PhoneNumbersController < ApplicationController
   before_action :set_phone_number, only: [:show, :edit, :update, :destroy]
 
